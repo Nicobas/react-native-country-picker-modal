@@ -382,7 +382,7 @@ export default class CountryPicker extends Component {
               {CountryPicker.renderFlag(this.props.cca2,
                 styles.itemCountryFlag,
                 styles.emojiFlag,
-                styles.imgStyle)}
+                this.props.flagStyle)}
             </View>
           )}
         </TouchableOpacity>
